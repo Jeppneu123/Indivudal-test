@@ -28,7 +28,8 @@ public class LogicsAndNumbersStuff {
             return sum;
         }
 
-        public static double averageOfNumber(int[] numbers) {
+        public static double averageOfNumber(int[] numbers)
+        {
             int sum = 0;
             int i;
             for (i = 0; i < numbers.length; i++) {
